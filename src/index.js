@@ -29,7 +29,7 @@ class Flights {
             console.log(
                 ' refresh!',
             );
-        }, 200);
+        }, 5000);
 
     }
 
