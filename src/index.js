@@ -22,13 +22,14 @@ class Flights {
     }
 
     init() {
+        this.getData().then(data => {
+            this.renderTable(data)
+        });
         setInterval(()=>{
             this.getData().then(data => {
                 this.renderTable(data)
             });
-            console.log(
-                ' refresh!',
-            );
+            console.log('refresh!');
         }, 5000);
     }
 
