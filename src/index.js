@@ -30,7 +30,6 @@ class Flights {
                 ' refresh!',
             );
         }, 5000);
-
     }
 
     renderTable(data) {
