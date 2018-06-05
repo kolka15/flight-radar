@@ -23,7 +23,6 @@ class Flights {
 
     convertRecievedData(data) {
         let newData = [];
-
         let getDistanceToAirport = (plane) => {
             let planeLat = plane[1];
             let planeLong = plane[2];
