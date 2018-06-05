@@ -63,7 +63,7 @@ class Flights {
                     <tr>
                         <td>${defaultNone(item[1])}, ${defaultNone(item[2])}</td>
                         <td>${defaultNone(item.data.speed)}</td>
-                        <td>${defaultNone(item.data.course)}°</td>
+                        <td>${defaultNone(item.data.course)}</td>
                         <td>${defaultNone(item.data.altitude)}</td>
                         <td>${item[11]} — ${item[12]}</td>
                         <td>${defaultNone(item[13])}</td>
