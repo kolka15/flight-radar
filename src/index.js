@@ -74,7 +74,6 @@ class Flights {
     }
 
     init() {
-
         let init = () => {
             this.getData().then(data => {
                 this.renderTable(data)
@@ -85,7 +84,6 @@ class Flights {
 
         setInterval(() => {
             init();
-            console.log('refresh!');
         }, 5000);
     }
 }
